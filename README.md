@@ -10,7 +10,7 @@
 ./build_environment.sh
 ```
 
-#### Running the notebook
+#### Running the notebook from docker
 
 ```shell
 ./run_environment.sh
@@ -29,7 +29,7 @@ $ pip install -U --user https://github.com/pypa/pipenv/archive/3e63f078adcdd0a05
 $ pipenv install
 ```
 
-#### Running the notebook
+#### Running the notebook from your local environment
 
 ```shell
 $ pipenv run jupyter notebook

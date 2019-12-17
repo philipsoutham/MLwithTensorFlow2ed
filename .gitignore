@@ -1,5 +1,3 @@
-# Ignoring this for cross-platform reasons
-Pipfile.lock
 
 .ipynb_checkpoints
 aclImdb*

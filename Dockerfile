@@ -5,8 +5,8 @@ WORKDIR /usr/src/app
 COPY requirements.txt .
 
 RUN apt-get update \
-    && apt-get install -y gcc g++ mpi-default-bin libsndfile1-dev \
-    && pip install -r requirements.txt
+    && apt-get install -y cmake gcc g++ mpi-default-bin libsndfile1-dev \
+    && pip install -r requirements.txt && pip install horovod~="0.18.2"
 
 ENV HOME /tmp
 
